@@ -1,0 +1,74 @@
+.header {
+    background-image: url("images/hero-img.jpg");
+    background-size: cover;
+    padding: 160px 0 160px 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+#title {
+    background: #3c096c;
+    padding: 1px 12px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    font-size: 33px;
+}
+
+#text {
+    background: #c77dff;
+    padding: 1px 28px;
+    border-radius: 10px;
+    margin-top: 8px;
+    font-size: 20px;;
+}
+
+#title-act {
+    margin: 0;
+     padding-top: 60px;
+     padding-bottom: 60px;
+}
+
+.activity {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+
+.act-section{
+    margin: 0;
+    background: #fae0ff;
+}
+
+.img-act {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.guide {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    margin: 60px auto 60px;
+    padding: 15px;
+    justify-content: space-around;
+    background: #c77dff;
+    color: #ffffff;
+    border-radius: 10px;
+    border-bottom: 6px solid #3c096c;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 160px;
+    border-radius: 10px;
+}
